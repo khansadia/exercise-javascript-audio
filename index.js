@@ -10,7 +10,7 @@ const pauseBtn = document.querySelector('#pause-btn');
 const timeRange = document.querySelector('#time-range');
 
 
-// Define song data (title, artist, album, file path, etc.)
+// Here song related info (song title, artist, album, file path, etc.)
 const playlist = [
   {
     id: "1",
