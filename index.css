@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 5rem auto;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: #c09c9c;;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+}
+
+header .music_note {
+    font-size: 5rem;
+    background-color: #cdaeae;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-right: 2rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+.header-artist {
+    font-size: 1.4rem;
+    margin-bottom: .7rem;
+}
+
+#playlist-view {
+    background-color: #b49898;
+    padding: .5rem;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: .5rem;
+    background-color: #9b7b7b;
+    color: #ffffff;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.playlist-item .img-container {
+    width: 80px;
+    height: 80px;
+}
+
+.playlist-item .img-container img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.playlist-item-desc .playlist-item-title{
+    font-size: 1.3rem;
+    margin-bottom: .4rem;
+}
+
+.playlist-item-desc .playlist-item-artist{
+    font-size: 1rem;
+    margin-bottom: .7rem;
+}
+
+.playlist-item-desc .playlist-item-album{
+    font-size: .8rem;
+    margin-bottom: .7rem;
+}
+
+.pause-btn {
+    display: none;
+}
+
+#current-song-view {
+    background-color: #4a8cbe;
+    display: flex;
+}
+
+.control {
+    flex: 1;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.material-icons, .material-symbols-outlined{
+    font-size: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.time-volume {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.time-range {
+    margin: 1rem 2rem 2rem;
+    width: 90%;
+}
+
+.volume-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    background-color: #b0d5fa;
+    border-radius: .5rem;
+}
+
+.volume-range {
+    margin: 2rem 0 3rem;
+}
+
+.volume-off {
+    display: none;
+}
+
+.volume-range {
+    transform: rotate(-90deg);
+    width: 80px;
+}
+
+
